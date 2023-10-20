@@ -13,7 +13,7 @@ installTheme(){
     echo "Installing theme..."
     cd /var/www/pterodactyl
     rm -r Utama
-    git clone https://github.com/putratzy11/Utama.git
+    git clone https://github.com/Shinnstar/Utama.git
     cd Utama
     rm /var/www/pterodactyl/resources/scripts/Utama.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
@@ -60,15 +60,14 @@ restoreBackUp(){
     yarn build:production
     sudo php artisan optimize:clear
 }
-echo "Wallpaper By Putra Official"
-echo "COMMAND INSTALL THEMA BY PUTRA OFFICIAL"
+echo "Wallpaper By BUMII"
+echo "INSTALL THEMA BY BUMII"
 
-echo "Wa: +6285697886101"
-echo "Youtube: PUTRA OFFICIAL"
-echo "Instagram: @ysffsptraa"
+echo "Wa: 6282130756675"
+echo "Instagram: @shinaya_xyn"
 
 echo "BUAT KAMU YANG BUTUH VPS MURAH & BERGARANSI LANGSUNG"
-echo "HUBUNGI NOMOR WHATSAPP PUTRA OFFICIAL DI ATAS INI"
+echo "HUBUNGI NOMOR WHATSAPP BUMII DI ATAS INI"
 
 echo "[1] Install Thema Wallpaper"
 echo "[2] Restore backup"
